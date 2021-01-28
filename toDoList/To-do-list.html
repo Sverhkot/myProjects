@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <link href="toDoList.css" rel="stylesheet">
+<head>
+</head>
+<style>
+</style>
+
+<body>
+  
+  <div class="toDoList">
+    <h1>To do list</h1>
+
+    <div class="block">
+      <p class="time"></p>
+      <p class="date"></p>
+    </div>
+
+    <div class="listAndChekbox">
+      <p class="list list1" onclick="itemCompleted('list1')"><input type="checkbox" class="checkmark"><span>Сделать то</span></p>
+      <p class="list list2" onclick="itemCompleted('list2')"><input type="checkbox" class="checkmark"><span>Сделать сё</span></p>
+      <p class="list list3" onclick="itemCompleted('list3')"><input type="checkbox" class="checkmark"><span>Сделать пятое</span></p>
+      <p class="list list4" onclick="itemCompleted('list4')"><input type="checkbox" class="checkmark"><span>Сделать десятое</span></p>
+    </div>
+
+    <input type="text" class="enter">
+    <button class="buttonAdd" onclick="addNewElement()">Добавить</button>
+
+  </div>
+  <script src = "toDoList.js"></script>
+</body>
+
+</html>

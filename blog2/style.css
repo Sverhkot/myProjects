@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.left-menu {
+  width: 200px;
+  height: 700px;
+  background-color: rgb(167, 167, 167);
+  border-right: 1px solid rgb(121, 121, 121);
+  grid-column: 1/2;
+}
+.param {
+  margin: 0px 10px;
+  padding: 5px 10px;
+}
+.btn {
+  margin-left: 20px;
+}
+.numb {
+  width: 50px;
+}
+ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+li {
+  list-style-type: none;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+}

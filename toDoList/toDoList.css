@@ -1,0 +1,75 @@
+.toDoList {
+    width: 700px;
+    min-height: 750px;
+    margin: auto;
+    background-color: rgba(143, 172, 170, 0.418);
+    box-shadow: 0 0 10px 5px rgba(71, 87, 85, 0.418);
+    
+  }
+
+  .block {
+    width: 670px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 100px;
+    margin: 15px;
+    
+  }
+  .time, .date {
+    color: rgb(143, 172, 170);
+    font: 75px monospace;
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+  }
+
+  .list {
+    display: block;
+    color: rgb(143, 172, 170);
+    list-style-type: none;
+    font: 25px monospace;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 5px;
+    margin: 15px;
+    text-align: left;
+
+  }
+  h1 {
+    color: rgb(143, 172, 170);
+    font: 50px monospace;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .checkmark {
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+  }
+  .enter {
+    width: 500px;
+    height: 35px;
+    margin: 15px;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    outline-color: rgb(126, 150, 147);
+  }
+  .buttonAdd {
+    width: 130px;
+    height: 40px;
+    margin: 15px;
+    margin-top: 0px;
+    background-color:rgba(255, 255, 255, 0.568);
+    outline-color: rgb(126, 150, 147);
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    color: rgb(126, 150, 147);
+    font: 18px monospace;
+  }
+  .buttonAdd:active {
+    background-color:rgba(143, 172, 170, 0.418);
+    border: 1px solid rgba(143, 172, 170, 0.418);
+  }
+ .completed {
+   text-decoration: line-through;
+ }
