@@ -1,0 +1,114 @@
+.main-blog-page-wrapper {
+  width: 100%;
+  height: 50px;
+  background-color: #6c757d;
+}
+
+.list-of-numbers {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.form-control {
+  width: 200px;
+  border: 1px solid #6c757d;
+}
+.btn {
+  height: 50px;
+}
+#add {
+  height: 38px;
+  margin-left: 15px;
+}
+.form-control {
+  width: 60%;
+}
+.btn-group {
+  grid-column: 2/3;
+}
+
+.list-of-posts {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.posts {
+  margin: 0;
+  padding: 0;
+  grid-column: 2/3;
+}
+.comments {
+  grid-column: 2/3;
+  padding: 0;
+  margin: 10px;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  background-color: #6c757d98;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+.comments-li {
+  list-style-type: none;
+  text-align: left;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #6c757d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  color: #6c757d;
+}
+.post {
+  text-align: justify;
+  font-size: 17px;
+  padding: 10px;
+}
+.adding-a-post {
+  display: flex;
+  grid-column: 2/3;
+  justify-content: left;
+  margin: 10px;
+}
+
+.link-to-comments {
+  color: #6c757d;
+  text-decoration: none;
+}
+.link-to-comments:hover,
+.link-to-comments:visited {
+  color: #6c757d;
+}
+.name,
+.comment-body {
+  margin: 0;
+  padding: 5px;
+  text-align: justify;
+  line-height: 20px;
+}
+.email {
+  margin: 0;
+  padding: 5px;
+  text-align: justify;
+  line-height: 20px;
+  font-weight: bold;
+}
+#back {
+  display: inline;
+  height: 38px;
+  margin-right: 10px;
+}
+.btn-and-title {
+  margin: 15px;
+  display: flex;
+}

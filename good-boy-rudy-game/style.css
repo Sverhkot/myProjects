@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.game {
+  width: 1000px;
+  display: block;
+  height: 400px;
+  margin: 0 auto;
+}
+#over {
+  width: 1000px;
+  height: 350px;
+  display: none;
+  margin: 0 auto;
+}
+
+.current-result {
+  display: block;
+  position: absolute;
+  top: 484px;
+  left: 268px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 350px;
+}
+.your-score {
+  display: block;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 26px;
+  color: black;
+  position: fixed;
+  top: 480px;
+  left: 280px;
+}
+.users-score {
+  display: block;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 26px;
+  color: red;
+  position: fixed;
+  top: 40px;
+  left: 50px;
+}
+#dog {
+  width: 100px;
+  height: 100px;
+  background-image: url("korgi.svg");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  position: relative;
+  top: 270px;
+  left: 45px;
+  z-index: 100;
+}
+
+#ulitka {
+  z-index: 1000;
+  width: 80px;
+  height: 80px;
+  background-image: url("ulitka.svg");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 225px;
+  left: 580px;
+  z-index: 100;
+  animation: cucumberMov 3s infinite linear;
+}
+.overflow {
+  overflow: hidden;
+  position: relative;
+  top: -420px;
+}
+.flex {
+  display: flex;
+  position: relative;
+  top: 0px;
+  animation: grassMov 20s infinite linear;
+}
+.flex2 {
+  display: flex;
+  position: relative;
+  top: 238px;
+  animation: skyMov 130s infinite linear;
+}
+
+@keyframes grassMov {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -1000px;
+  }
+}
+@keyframes skyMov {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -1000px;
+  }
+}
+
+@keyframes cucumberMov {
+  0% {
+    left: 950px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.jump {
+  animation: jump 0.8s linear;
+}
+@keyframes jump {
+  0% {
+    top: 270px;
+  }
+
+  50% {
+    top: 170px;
+  }
+  100% {
+    top: 270px;
+  }
+}
+.play {
+  display: none;
+  width: 1000px;
+  height: 620px;
+  margin: auto;
+  top: 0px;
+  left: 0;
+}
+.form-control {
+  border: 3px solid #f4d06f;
+}
+.input-group {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+  left: 10px;
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+}
+.btn {
+  background-color: #f4d06f;
+  color: white;
+  border-color: #f4d06f;
+  font-size: 20px;
+}
+.try-again {
+  position: absolute;
+  top: 380px;
+  left: 45%;
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #f4d06f;
+  color: white;
+  border-color: #f4d06f;
+  font-family: "Amatic SC", cursive;
+}
+table {
+  position: absolute;
+  top: 523px;
+  left: 918px;
+}
+td {
+  border: 1px solid black;
+  padding: 5px;
+  font-family: "Amatic SC", cursive;
+}
+.Best-result {
+  position: absolute;
+  /* top: 10px;
+  left: 100px; */
+  top: 485px;
+  left: 918px;
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  border: 1px solid black;
+  width: 350px;
+}

@@ -1,0 +1,29 @@
+.Frog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 100%;
+  margin: 20px auto;
+}
+h1 {
+  width: 350px;
+  text-align: center;
+  color: black;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin: 0;
+}
+.description {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+.random-frog {
+  margin: 0 auto;
+  position: relative;
+  top: 0px;
+  left: auto;
+  width: 350px;
+  height: 350px;
+}
